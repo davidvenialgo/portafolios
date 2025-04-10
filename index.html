@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="img/d.png">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">David Venialgo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+    
+     <!-- SECCIN INICIO -->
+      <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>David Venialgo</h1>
+            <h2>Ingeniero en Informatica</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/1HHKiRoSrS/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/davidvenialgo27?s=21&t=9sdCVYyRimf7wsinoDSQuw" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/venialgo27_?igsh=ZjJjdDh4djg4bzYx&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/david-venialgo-65715031b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/qr/6A6R5M52742KN1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                
+            </div>
+        </div>
+      </section>
+
+      <!-- SECCION SOBRE MI -->
+       <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy David Venialgo </span>Desarrollador de paginas web con mas de un año de experiencia proporcionando soporte a usuarios de todos los niveles y 
+                empresas que ofrecen servicios. Desarrollador web innovador, proactivo y con capacidad para desarrollar paginas web elegantes. Durante mi trayectoria he podido
+                aprender y perfeccionar conocimientos tecnicos que me han ayudado a construir mi perfil como programador. Organizado y con capacidad de multitareas con experiencia 
+                en programacion de proyectos, mejora de diseños y verificacion de codigos.</p>
+
+            <div class="fila">
+                <!-- Datos Personales -->
+                 <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            28-02-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (0991) 198 947
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            davidismael.dv@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Roque González de Santa Cruz - Calle San Blas casi Ypoa -  Barrio Inmaculada Concepción.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web</span>
+                        </li>
+                    </ul>
+                </div>
+
+                 <!-- intereses -->
+                  <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS OS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-ticket"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <button>
+                DESCARGAR CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+       </section>
+
+       <!-- SECCION HABILIDADES -->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!-- HABILIDADES TECNICAS -->
+                     <div class="col">
+                        <h3>Habilidades Tecnicas</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>PHP & LARAVEL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>82%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Doker</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>88%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>MySQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                     <!-- HABILIDADES PROFESIONALES -->
+                     <div class="col">
+                        <h3>Habilidades Profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicacion</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Dedicacion</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>88%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Estudios Universitarios</h4>
+                            <span class="casa">Culminado.</span>
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Universidad Politécnica y Artistica del Paraguay - Ingenieria en Informática.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Curso de Formación de Mantenimiento y Reparación de PC - Servicio Nacional Promoción Profesional - Año 2016.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Programación Java - Servicio Nacional Promoción Profesional - Año 2019.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Programación Oracle - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Sistema Ajax - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Administración de Servidor Web-Apache - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Adobe Photoshop - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Diseño Web CSS - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>PHP y Base de Datos - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Diseño Web JavaScript - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Fundamento de Ciberseguridad - Servicio Nacional Promoción Profesional - Año 2020.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Marketing Digital y Comercio Electrónico - Servicio Nacional Promoción Profesional - Año 2021.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Soporte Técnico para PC - Servicio Nacional Promoción Profesional - Año 2021.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Diseño Web HTML5 - Servicio Nacional Promoción Profesional - Año 2021.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Idioma Guarani Intermedio - Servicio Nacional Promoción Profesional - Año 2021.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <!-- <h4>Certificaciones</h4> -->
+                            <!-- <span class="casa">Culminado.</span> -->
+                            <!-- <span class="fecha">2005 - 2008</span> -->
+                                <p>Idioma Ingles Intermedio - Servicio Nacional Promoción Profesional - Año 2021.</p>
+                            <div class="conectori">
+                                 <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia de Trabajo</h3>
+                        <div class="item der">
+                            <h4>Desarrollador Web</h4>
+                            <span class="casa">Grupo Epem</span>
+                            <span class="fecha">2023 - Actualmente</span>
+                            <ul>
+                                <li>Desarrollé sitios web funcionales con HTML, CSS, PHP, JavaScript, React y Laravel, enfocándome en accesibilidad y seguridad.</li>
+                                <li>Integré frontend y backend con Node.js y PHP, creando sistemas robustos.</li>
+                                <li>Mantuve y mejoré sitios existentes, corrigiendo errores y adaptándolos a nuevas necesidades.</li>
+                                <li>Gestioné código con Git, GitHub y Bitbucket, optimizando el trabajo colaborativo.</li>
+                                <li>Lideré un equipo de desarrolladores, asignando tareas y asegurando el cumplimiento de plazos.</li>
+                                <li>Capacité a nuevos integrantes, compartiendo buenas prácticas de desarrollo.</li>
+                                <li>Colaboré con diseño gráfico, marketing y gestión para alinear proyectos con objetivos de negocio.</li>
+                            </ul>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Auxiliar Contable</h4>
+                            <span class="casa">A & F Estudios Contables</span>
+                            <span class="fecha">2021 - 2023</span>
+                            <ul>
+                                <li>Gestioné el sistema contable, asegurando la exactitud de la información financiera.</li>
+                                <li>Realicé conciliaciones bancarias mensuales, ajustando registros y detectando discrepancias.</li>
+                                <li>Administré la emisión, revisión y archivo de facturas y otros documentos contables.</li>
+                                <li>Colaboré en reportes financieros básicos para la toma de decisiones.</li>
+                                <li>Usé Excel y Marangatu para la gestión eficiente de datos.</li>
+                                <li>Brindé soporte informático, optimizando el uso de software contable.</li>
+                                <li>Seguí trámites ante la Abogacía del Tesoro, cumpliendo requisitos legales.</li>
+                                <li>Cargué libros de compra y venta para declaraciones de impuestos.</li>
+                            </ul>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIOS -->
+         <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/fondo2.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Tabla de Posiciones</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/fondo3.png" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Estudio Contable</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/fondo4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Noticias</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/fondo5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Ventas</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/fondo6.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Eventos</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/fondo7.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Aventura</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- SECCION  CONTACTO-->
+        <!-- Contenedor principal -->
+        <div style="background-color: #1e2326; padding: 50px 0;">
+            <div class="contacto-info"
+                style="background-image: url(img/contact_bg.png); background-color: #1e2326; padding: 40px; border-radius: 30px; color: #ffffff; text-align: center; box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); max-width: 550px; margin: 20px auto; position: relative; overflow: hidden; background-size: cover; background-position: center;">
+                <!-- Detalle decorativo -->
+                <div
+                    style="position: absolute; top: -60px; right: -60px; width: 120px; height: 120px; background: rgba(28, 182, 152, 0.2); border-radius: 50%;">
+                </div>
+        
+                <h3
+                    style="font-size: 36px; margin-bottom: 20px; font-family: 'Righteous', sans-serif; font-weight: 700; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">
+                    ¡Hablemos!</h3>
+                <p style="font-size: 16px; margin-bottom: 30px; line-height: 1.5; opacity: 0.9;">Escribime por WhatsApp o correo
+                    para contactarme.</p>
+        
+                <!-- Botón de WhatsApp -->
+                <a href="https://wa.me/595991123456" target="_blank"
+                    style="display: inline-flex; align-items: center; margin: 10px; padding: 14px 28px; background: #1CB698; color: #ffffff; text-decoration: none; border-radius: 50px; font-weight: 600; font-size: 15px; box-shadow: 0 4px 15px rgba(28, 182, 152, 0.5); transition: all 0.3s ease;">
+                    <i class="fa-brands fa-whatsapp" style="margin-right: 10px; font-size: 18px;"></i> WhatsApp
+                </a>
+        
+                <!-- Botón de correo -->
+                <a href="mailto:soporte@tusistema.com" target="_blank"
+                    style="display: inline-flex; align-items: center; margin: 10px; padding: 14px 28px; background: #252A2E; color: #ffffff; text-decoration: none; border-radius: 50px; font-weight: 600; font-size: 15px; box-shadow: 0 4px 15px rgba(37, 42, 46, 0.5); transition: all 0.3s ease;">
+                    <i class="fa-solid fa-envelope" style="margin-right: 10px; font-size: 18px;"></i> Correo
+                </a>
+            </div>
+        </div>
+        <!-- Estilos adicionales para hover -->
+        <style>
+            .contacto-info a:hover {
+                transform: scale(1.05);
+                box-shadow: 0 6px 20px rgba(28, 182, 152, 0.7);
+                filter: brightness(1.15);
+            }
+        </style>
+
+          <!-- FOOTER -->
+           <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+           </footer>
+
+           <script src="script.js"></script>
+</body>
+</html>
