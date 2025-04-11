@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2326;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.curriculum-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: #252A2E;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.download-btn {
+    text-align: right;
+    padding: 20px;
+}
+
+.download-btn button {
+    background-color: #1CB698;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.download-btn button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(28, 182, 152, 0.5);
+}
+
+.curriculum-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    width: 35%;
+    background-color: #1e2326;
+    padding: 40px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #1CB698;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.profile .title {
+    font-size: 16px;
+    color: #1CB698;
+    opacity: 0.9;
+}
+
+.info h3, .skills h3, .references h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1CB698;
+}
+
+.info ul, .skills ul, .references ul {
+    list-style: none;
+}
+
+.info ul li, .references ul li {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.info ul li i, .references ul li i {
+    color: #1CB698;
+    margin-right: 10px;
+}
+
+.info ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info ul li a:hover {
+    color: #1CB698;
+}
+
+.skills ul li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    position: relative;
+}
+
+.skills ul li .skill-level {
+    display: block;
+    height: 5px;
+    background-color: #1CB698;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.right-section {
+    width: 65%;
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 24px;
+    color: #1CB698;
+    margin-bottom: 20px;
+}
+
+.section h2 i {
+    margin-right: 10px;
+}
+
+.section .item {
+    margin-bottom: 20px;
+}
+
+.section .item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.section .item .company {
+    font-size: 15px;
+    color: #1CB698;
+    margin-bottom: 10px;
+}
+
+.section .item p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.section .item ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.section .item ul li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.section .item ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #1CB698;
+}
+
+/* Estilo para la nueva sección de Referencias Personales */
+.references ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo para impresión */
+@media print {
+    body {
+        background: none;
+    }
+    .curriculum-container {
+        box-shadow: none;
+        margin: 0;
+    }
+    .download-btn {
+        display: none;
+    }
+    .left-section, .right-section {
+        width: 100%;
+    }
+}
