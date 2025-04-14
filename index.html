@@ -433,7 +433,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- Botón "Ver Certificados" al final del contenido, dentro del scroll -->
+                </div>
+                <div class="certificados-btn-container">
+                    <a href="certificados.html" class="certificados-btn" target="_blank">Ver Certificados</a>
+                </div>
         </section>
 
         <!-- SECCION PORTAFOLIOS -->
@@ -541,6 +545,15 @@
             </div>
            </footer>
 
+           <footer>
+            <small>©<small id="date"></small> David Ismael Venialgo Chaparro</small>
+           </footer>
+
            <script src="script.js"></script>
+           <script>
+                let date = document.querySelector('#date');
+                let currentYear = new Date().getFullYear();
+                date.innerHTML = currentYear;
+            </script>
 </body>
 </html>
