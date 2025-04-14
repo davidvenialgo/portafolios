@@ -1043,7 +1043,7 @@ footer .arriba {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 780px) {
     #curriculum .contenido-seccion {
         max-height: 500px;
     }
@@ -1062,7 +1062,7 @@ footer .arriba {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
     #curriculum .contenido-seccion {
         max-height: 400px;
     }
@@ -1079,4 +1079,4 @@ footer .arriba {
     .certificados-btn i {
         font-size: 14px;
     }
-}
+} */
