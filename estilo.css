@@ -1080,3 +1080,11 @@ footer .arriba {
         font-size: 14px;
     }
 } */
+
+#nombre {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
